@@ -1,0 +1,17 @@
+class SimpleCalculator{
+public static void main(String args[]){
+Scanner sc=new Scanner(System.in);
+        System.out.println("Enter first no:");
+        int n1=sc.nextInt();
+        System.out.println("Enter second no:");
+        int n2=sc.nextInt();
+        System.out.println("Addition="+(n1+n2));
+        System.out.println("Subtraction="+(n1-n2));
+        System.out.println("Multiplication="+(n1*n2));
+        if(n2!=0){
+            System.out.println("Division="+(n1/n2));
+        }else{
+            System.out.println("Division not possible");
+        }
+    }
+}
