@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String args[]) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the no of elements:");
+        int n=sc.nextInt();
+        int[] arr = {1, 2, 3};
+        int sum=0;
+        for(int i=0;i<arr.length;i++){
+            sum+=arr[i];}
+            double avg=sum/n;
+            System.out.println("avg of the elements="+avg);
+    }
+}
