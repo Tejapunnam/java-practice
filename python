@@ -1,0 +1,10 @@
+amount =int(input("Enter amount:"))
+discount=0
+if(amount>5000):
+    print("Discount=",(20/100)*amount)
+elif(amount<5000 and amount>3000):
+    print("Discount=",(10/100)*amount)
+else:
+    print("No discount")
+final_amount=amount-discount
+print("Final amount=",final_amount)
