@@ -1,0 +1,8 @@
+commom_username="admin"
+common_password="1234"
+username=input("Enter username:")
+password=int(input("Enter password:"))
+if(username==commom_username and password==common_password):
+    print("Login successfull")
+else:
+    print("Not successfull")
